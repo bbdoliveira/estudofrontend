@@ -1,0 +1,40 @@
+/*Formatação da Index (Pagina Principal)*/
+body {
+    background-color: #c2c2c2;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+#principal {
+    width: 900px;
+    /*border: 3px solid red;*/
+}
+#menu {
+    background: #c2c2c2;
+    /*border: 3px solid blue;*/
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#rodape {
+    text-align: center;
+    font-size: 1.2em;
+    color: darkcyan;
+
+}
+/*.background {
+    background-color:#c2c2c2;
+}*/
+.titulo {
+    /*border: 3px solid  red;*/
+    text-align: center;
+    padding: 5px;
+}
+.personagens {
+    border: 15px outset grey;
+}
+.poemas {
+    border: 8px outset grey;
+}
+h3 {
+    font-size: 1.2em;
+}
+/*----------------------------------------------*/
