@@ -3,36 +3,55 @@ body {
     background-color: #c2c2c2;
     font: 16px Arial, Helvetica, sans-serif;
 }
-#principal {
+/*#principal {
     width: 900px;
-    /*border: 3px solid red;*/
-}
+    border: 3px solid red;
+}*/
 #menu {
     background: #c2c2c2;
-    /*border: 3px solid blue;*/
     padding: 5px;
     text-align: center;
     font-weight: bold;
+}
+.titulo {
+    border: 5px solid black;
+    text-align: center;
+    margin: 10px;
+}
+.imagem {
+    border: 5px solid black;
+    text-align: center;
+    margin: 10px;
+}
+.conteudo {
+    border: 5px solid black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+.portraits {
+    border: 15px outset grey;
+}
+.text {
+    border: 5px outset grey;
+    width: 1680px;
+    height: 120px;
+    float: right;
+}
+.text2 {
+    border: 5px outset grey;
+    width: 1680px;
+    height: 120px;
+    float: left;
+}
+.poemas {
+    border: 8px outset grey;
 }
 #rodape {
     text-align: center;
     font-size: 1.2em;
     color: darkcyan;
-
-}
-/*.background {
-    background-color:#c2c2c2;
-}*/
-.titulo {
-    /*border: 3px solid  red;*/
-    text-align: center;
-    padding: 5px;
-}
-.personagens {
-    border: 15px outset grey;
-}
-.poemas {
-    border: 8px outset grey;
 }
 h3 {
     font-size: 1.2em;
