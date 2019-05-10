@@ -32,6 +32,7 @@ body {
 }
 .portraits {
     border: 15px outset grey;
+    display: inline-block;
 }
 .text {
     border: 5px outset grey;
@@ -44,6 +45,12 @@ body {
     width: 1680px;
     height: 120px;
     float: left;
+}
+.text3 {
+    width: 900px;
+    position: relative;
+    bottom: 180px;
+    left: 190px;
 }
 .poemas {
     border: 8px outset grey;
