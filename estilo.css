@@ -63,4 +63,22 @@ body {
 h3 {
     font-size: 1.2em;
 }
+/*-----------------------Formatação de Links-----------------------*/
+a {
+    padding: 10px;
+    text-decoration: none; /*Remove o sublinhado*/
+}
+a:link { /*Links não visitado*/
+    color: cornflowerblue;
+}
+a:visited { /*Links Visitado*/
+    color: brown;
+}
+a:hover { /*Mouse sobre o link*/
+    color: chartreuse;
+    background: coral;
+}
+a:active { /*Ao clicar no link*/
+    color: blueviolet;
+}
 /*----------------------------------------------*/
