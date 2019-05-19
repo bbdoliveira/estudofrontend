@@ -1,6 +1,6 @@
 /*Formatação da Index (Pagina Principal)*/
 body {
-    background-color: #c2c2c2;
+    background-color: white;
     font: 16px Arial, Helvetica, sans-serif;
 }
 /*#principal {
@@ -63,22 +63,41 @@ body {
 h3 {
     font-size: 1.2em;
 }
-/*-----------------------Formatação de Links-----------------------*/
+/*-----------------------Formatação de Links-----------------------
 a {
     padding: 10px;
-    text-decoration: none; /*Remove o sublinhado*/
+    text-decoration: none; /*Remove o sublinhado
 }
-a:link { /*Links não visitado*/
+a:link { /*Links não visitado
     color: cornflowerblue;
 }
-a:visited { /*Links Visitado*/
+a:visited { /*Links Visitado
     color: brown;
 }
-a:hover { /*Mouse sobre o link*/
+a:hover { /*Mouse sobre o link
     color: chartreuse;
     background: coral;
 }
-a:active { /*Ao clicar no link*/
+a:active { /*Ao clicar no link
     color: blueviolet;
 }
-/*----------------------------------------------*/
+-----------------------------------------------------------------*/
+/*---------------------Formatação barra Vertical--------------------*/
+ul {
+    list-style-type: none;
+}
+ul a {
+    /*border: 1px solid red;*/
+    color: #000;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: url(../imagens/menu.png) no-repeat left bottom;
+}
+a:hover {
+    background-position: right bottom;
+    color: white;
+}
