@@ -3,9 +3,20 @@ body {
     background-color: white;
     font: 16px Arial, Helvetica, sans-serif;
 }
-#container{
-    width: 720px;
-    margin: 0 auto;
+#container {
+    width: 930px;
+    margin: 0 auto; /* Auto para margin "centraliza o conteudo"*/
+    background: #fff;
+}
+#titulo {
+    height: 100px;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+}
+#capa {
+    height: 430px;
+
 }
 #menu {
     background: #c2c2c2;
@@ -57,53 +68,21 @@ body {
 }
 #rodape {
     text-align: center;
+    margin: 20 auto;
+    padding: 20;
     font-size: 1.2em;
     color: darkcyan;
+    border: 5px solid black;
 }
 h3 {
     font-size: 1.2em;
 }
-/*-----------------------Formatação de Links-----------------------
-a {
-    padding: 10px;
-    text-decoration: none; /*Remove o sublinhado
-}
-a:link { /*Links não visitado
-    color: cornflowerblue;
-}
-a:visited { /*Links Visitado
-    color: brown;
-}
-a:hover { /*Mouse sobre o link
-    color: chartreuse;
-    background: coral;
-}
-a:active { /*Ao clicar no link
-    color: blueviolet;
-}
------------------------------------------------------------------*/
-/*---------------------Formatação barra Vertical--------------------*/
-/*ul {
-    list-style-type: none;
-}*/
-/*ul a {
-    /*border: 1px solid red;
-    color: #000;
-    width: 200px;
-    height: 40px;
-    display: block;
-    text-decoration: none;
-    text-indent: 40px;
-    line-height: 40px;
-    background: url(../imagens/menu.png) no-repeat left bottom;
-} */
 ul#home {
     margin: 0;
     padding: 0;
     list-style: none;
     width: 902px;
     float: left;
-    clear: both;
     background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
 }
 ul#home li{
@@ -139,3 +118,37 @@ ul#poema a:hover {
     background-position: right bottom;
     color: greenyellow;
 }
+/*-----------------------Formatação de Links-----------------------
+a {
+    padding: 10px;
+    text-decoration: none; /*Remove o sublinhado
+}
+a:link { /*Links não visitado
+    color: cornflowerblue;
+}
+a:visited { /*Links Visitado
+    color: brown;
+}
+a:hover { /*Mouse sobre o link
+    color: chartreuse;
+    background: coral;
+}
+a:active { /*Ao clicar no link
+    color: blueviolet;
+}
+-----------------------------------------------------------------*/
+/*---------------------Formatação barra Vertical--------------------*/
+/*ul {
+    list-style-type: none;
+}*/
+/*ul a {
+    /*border: 1px solid red;
+    color: #000;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: url(../imagens/menu.png) no-repeat left bottom;
+} */
