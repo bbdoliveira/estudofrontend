@@ -21,7 +21,7 @@ body {
 }
 #titulo {
     height: 100px;
-    background: #9e9e9e;
+    background: #c4c4c4;
     text-align: center;
     line-height: 100px;
 }
@@ -83,7 +83,6 @@ body {
     padding: 5px;
     font-size: 1.2em;
     color: darkcyan;
-    border: 5px solid black;
 }
 h3 {
     font-size: 1.2em;
