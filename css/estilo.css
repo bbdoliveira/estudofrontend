@@ -4,29 +4,41 @@ body {
     font: 16px Arial, Helvetica, sans-serif;
 }
 #container {
-    width: 930px;
+    width: 85%; /*930px;*/
+    max-width: 930px;
     margin: 0 auto; /* Auto para margin "centraliza o conteudo"*/
     background: #fff;
 }
 #conteudo {
-    width: 730px;
+    border: 1px solid red;
+    width: 78%;/*680px;*/
+    max-width: 680px;
     float: right;
 }
 #navegacao {
-    width: 180px;
+    border: 1px solid red;
+    width: 20%; /*180px;*/
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
     background: #d1d1d1;
+}
+#navegacao ul {
+    list-style: none;
+}
+#navegação Ul a {
+    text-decoration: none;
 }
 #titulo {
     height: 100px;
     background: #c4c4c4;
     text-align: center;
     line-height: 100px;
+    clear: both;
 }
 #capa {
     height: 430px;
+    background: url(../imagens/homebleach.jpg) no-repeat center;
 }
 #menu {
     background: #c2c2c2;
@@ -73,9 +85,9 @@ body {
     bottom: 180px;
     left: 190px;
 }
-.poemas {
+/*.poemas {
     border: 8px outset grey;
-}
+}*/
 #rodape {
     text-align: center;
     clear: both;
@@ -113,6 +125,10 @@ ul#home a:hover {
     color: #085662;
     background: #44cade;
 }
+#container-poema {
+    float: left;
+    border: 1px solid red;
+}
 ul#poema li, .vol1 a, .vol2 a, .vol3 a, .vol4 a, .vol5 a, 
 .vol6 a, .vol7 a, .vol8 a, .vol9 a, .vol10 a {
     color: #000;
@@ -126,7 +142,7 @@ ul#poema li, .vol1 a, .vol2 a, .vol3 a, .vol4 a, .vol5 a,
 }
 ul#poema a:hover {
     background-position: right bottom;
-    color: greenyellow;
+    color: #fff;
 }
 /*-----------------------Formatação de Links-----------------------
 a {
