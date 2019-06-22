@@ -95,10 +95,28 @@
 				<li><a href="#gon">Gon</a></li>
 			</ul>
 		</div>
-		<div id="rodape"><!--Inicio Rodapé-->
+		<div id="rodape" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"><!--Inicio Rodapé-->
 			<h4>Todos os Direitos Reservados</h4>
 		</div><!--Fim Rodapé-->
 	</div><!--Fim Principal-->
-	
+	<script>
+		roda.addEventListener('click', clicar)
+		roda.addEventListener('mouseenter', entrar)
+		roda.addEventListener('mouseout', sair)
+
+		function clicar() { //Função que muda o texto da <div>
+			var roda = window.document.getElementById('rodape')
+			roda.innerText = 'Teste!'
+		}
+		function entrar() {
+			var roda = window.document.getElementById('rodape')
+			roda.innerText = 'Entrou!'
+			roda.style.background = 'blue'
+		}
+		function sair(params) {
+			var roda = window.document.getElementById('rodape')
+			roda.innerText = 'Saiu!'			
+		}
+	</script>
 </body>
 </html>
