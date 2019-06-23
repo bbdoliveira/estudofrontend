@@ -178,3 +178,11 @@ a:active { /*Ao clicar no link
     line-height: 40px;
     background: url(../imagens/menu.png) no-repeat left bottom;
 } */
+#res {
+    padding: 2px;
+    float: left;
+}
+#teste {
+    display: block;
+    float: left;
+}
