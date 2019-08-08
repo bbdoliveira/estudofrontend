@@ -11,16 +11,20 @@ function contar(params) {
         var ini = Number(inicio.value)
         var fin = Number(final.value)
         var pas = Number(passo.value)
-        //var count
+        if (pas == 0) {
+            alert ('[ERRO] Passo Inválido! Considerando passo 1')
+            pas = 1
+        }
         if (ini < fin) {
             for (let count = ini; count <= fin; count += pas){
                 res.innerHTML += `${count} \u{1F449} `
             }
         } else {
+            //alert ('Ate aqui ta indo')
             for (let count = ini; count >= fin; count -= pas){
-                res.innerHTML = `${count} \u{1F448}`
+                res.innerHTML += `${count} \u{1F448}`
             }
         }
+        res.innerHTML += `\u{1F3C1}`
     }
-    res.innerHTML = `\u{1F3C1}`
 }
