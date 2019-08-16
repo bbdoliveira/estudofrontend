@@ -9,6 +9,7 @@
    
 </head>
 <body id="container">
+    <script src="script.js"></script>
     <div id="principal"><!--Inicio Principal-->
         <div class="imagem">
             <img src="imagens/bleachlogin00.png" alt="">
@@ -39,10 +40,11 @@
             <h1>Login</h1>
                 <form>
                     E-MAIL:
-                    <input type="text" name="login"><br>
+                    <!--<input type="text" name="login"validarEmail()><br>-->
+                    <input type="email" name="txtEmail" id="txtEmail" onblur="validarEmail()">
                     SENHA:
-                    <input type="password" name="senha"><br><br>
-                    <input type="button" value="Logar"> <input type="button" value="Cadastrar"> <br>
+                    <input type="text" name="txtSenha"><br><br>
+                    <input type="button" value="Logar" onclick="logar()"> <input type="button" value="Cadastrar" onclick="cadastrar()"> <br>
                 </form>
         </div>
         <div id="rodape"><!--Inicio Rodapé-->
