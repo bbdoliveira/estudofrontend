@@ -1,6 +1,11 @@
 //Cadastro
 function validarEmail(params) {
-    alert ('Teste')
+    var email = document.getElementById('txtEmail')
+    if (!email.checkValidity()) {
+        alert ('Email errado!')
+    } else {
+        alert ('Email Correto!')
+    }
 }
 function validarSenha(params) {
     alert ('Teste')
