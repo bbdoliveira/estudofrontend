@@ -186,3 +186,8 @@ a:active { /*Ao clicar no link
     display: block;
     float: left;
 }
+.login-form { /*Teste de classes do Background Pag/Login*/
+    background-image: url(../imagens/img-repeat/img-seta-repeat.png);
+    background-repeat: repeat;
+    background-size: 100px;
+}
