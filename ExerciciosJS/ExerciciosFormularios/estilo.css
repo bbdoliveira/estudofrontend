@@ -17,8 +17,13 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+.paragrafo {
+    text-align: center;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    margin: 20px;
 }
