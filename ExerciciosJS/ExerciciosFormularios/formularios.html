@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplos de Formulários</title>
+</head>
+<body>
+    <header>
+        <h1>Exemplos de Formulários Possiveis!</h1>
+    </header>
+    <section>
+        <div>
+            <form action="teste.php" method="post" name="exemplo_formulario">
+                <div>
+                    Digite uma palavra: <input type="text" name="palavra" id="palavra" maxlength="25">
+                </div>
+                <div><!--Input text e password-->
+                    Login: <input type="text" name="login" id="login" maxlength="20">
+                    Senha: <input type="password" name="senha" id="senha" maxlength="15">
+                </div>
+                <div><!--Input radio-->
+                    Escolha o Sexo:
+                    <input type="radio" name="sexo" id="sexo" value="M">Masculino
+                    <input type="radio" name="sexo" id="sexo" value="F">Feminino
+                    <input type="radio" name="sexo" id="sexo" value="O">Outro
+                </div>
+                <div><!--Input checkbox-->
+                    Afinidades:
+                    <input type="checkbox" name="filmes" id="filmes">Filmes
+                    <input type="checkbox" name="livros" id="livros">Livros
+                    <input type="checkbox" name="series" id="series">Séries
+                    <input type="checkbox" name="jogos" id="jogos">Jogos
+                </div>
+                <div><!--Input color-->
+                    Escolha sua cor favorita: 
+                    <input type="color" name="cor" id="cor">
+                </div>
+                <div><!--Input date-->
+                    Data de hoje: <input type="date" name="data" id="data">
+                    Data da Compra: <input type="date" name="datecompra" id="datecompra" min="2019-07-31">
+                    Previsão de Pagamento: <input type="date" name="datapag" id="datapag" max="2019-09-30">
+                </div>
+                <div><!--Input datetime-local-->
+                    Data de Hoje: <input type="datetime-local" name="data-hoje" id="data-hoje">
+                </div>
+                <div> <!--Input email-->
+                    E-mail: <input type="email" name="email" id="email">
+                    Senha: <input type="password" name="senha-email" id="senha-email">
+                    <input type="button" value="Logar" id="logar">
+                </div>
+                <div><!--Input month-->
+                    Escolha mês e ano: <input type="month" name="mes" id="mes">
+                </div>
+                <div><!--Input number-->
+                    Escolha ou digite um número: <input type="number" name="numero" id="numero" min="1" max="10">
+                </div>
+                <div><!--Input range-->
+                    Range 0 a 100 <input type="range" name="range1" id="range1"><br>
+                    Range 50 a 150 <input type="range" name="range2" id="range2" min="50" max="150"><br>
+                    Range 10 em 10 <input type="range" name="range3" id="range3" step="10"><br>
+                </div>
+                <div><!--Input search-->
+                    <input type="button" value="Pesquisar" id="pesquisar">
+                    <input type="search" name="texto-pesquisa" id="texto-pesquisa">
+                </div>
+                <div><!--Input tel-->
+                    Fone: <input type="tel" name="fone" id="fone">
+                </div>
+                <div><!--Input time-->
+                    Escolha a hora: <input type="time" name="hora" id="hora">
+                </div>
+                <div><!--Input url-->
+                    Seu site (URL): <input type="url" name="site" id="site">
+                </div>
+                <div><!--Input week-->
+                    Escolha uma semana para folga: <input type="week" name="folga" id="folga">
+                </div>
+                <div><!--Input file-->
+                    Selecione o arquivo: <input type="file" name="arquivo" id="arquivo">
+                </div>
+                <div><!--Input button-->
+                    <input type="button" value="Botão">
+                </div>
+                <div><!--Input reset-->
+                    <input type="reset" value="Limpar o Formulário">
+                </div>
+                <div><!--Input submit-->
+                    <input type="submit" value="Cadastrar">
+                </div>
+                <div><!--Elemento textarea-->
+                    Sugestão: <textarea name="sugestão" id="sugestão" cols="30" rows="10"></textarea>
+                </div>
+                <div><!--Elemento select-->
+                    <select name="Estado" id="estado">
+                        <option value="SP">São Paulo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="PR">Parana</option>
+                        <option value="BA">Bahia</option>
+                        <option value="Nenhum" selected>Selecione um Estado</option><!--Previamente selecionado!-->
+                    </select>
+                </div>
+                <div>
+                    <select name="mercado" id="mercado">
+                        <option value="nenhum" selected>Selecione um item</option>
+                        <optgroup label="Limpeza">
+                            <option value="sabao">Sabão</option>
+                            <option value="alcool">Alcool</option>
+                            <option value="bucha">Buchas</option>
+                        </optgroup>
+                        <optgroup label="Alimentos">
+                            <option value="alface">Alface</option>
+                            <option value="cebola">Cebola</option>
+                            <option value="agriao">Agrião</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Brain Lab!</p> <!--Simbolo de C antes do nome!-->
+    </footer>
+</body>
+</html>
