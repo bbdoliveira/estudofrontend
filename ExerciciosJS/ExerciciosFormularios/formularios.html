@@ -102,7 +102,7 @@
                     </select>
                 </div>
                 <div>
-                    <select name="mercado" id="mercado">
+                    <select name="mercado" id="mercado"><!--Elemento Select com optgroup-->
                         <option value="nenhum" selected>Selecione um item</option>
                         <optgroup label="Limpeza">
                             <option value="sabao">Sabão</option>
@@ -115,6 +115,17 @@
                             <option value="agriao">Agrião</option>
                         </optgroup>
                     </select>
+                </div>
+                <div>
+                    Qual estilo de jogo você mais gosta: 
+                    <input list="jogos">
+                    <datalist id="jogos">
+                        <option value="FPS">
+                        <option value="RTS">
+                        <option value="RPG">
+                        <option value="Plataforma">
+                        <option value="Free to Play">
+                    </datalist>
                 </div>
             </form>
         </div>
