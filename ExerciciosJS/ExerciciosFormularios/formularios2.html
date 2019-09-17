@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplos de Formularios 2</title>
+</head>
+<body>
+    <div><!--Elemento textarea-->
+        Sugestão: <textarea name="sugestão" id="sugestão" cols="30" rows="10"></textarea>
+    </div>
+    <div><!--Elemento select-->
+        <select name="Estado" id="estado">
+            <option value="SP">São Paulo</option>
+            <option value="GO">Goiás</option>
+            <option value="PR">Parana</option>
+            <option value="BA">Bahia</option>
+            <option value="Nenhum" selected>Selecione um Estado</option><!--Previamente selecionado!-->
+        </select>
+    </div>
+    <div><!--Elemento Select com optgroup-->
+        <select name="mercado" id="mercado">
+            <option value="nenhum" selected>Selecione um item</option>
+            <optgroup label="Limpeza">
+                <option value="sabao">Sabão</option>
+                <option value="alcool">Alcool</option>
+                <option value="bucha">Buchas</option>
+            </optgroup>
+            <optgroup label="Alimentos">
+                <option value="alface">Alface</option>
+                <option value="cebola">Cebola</option>
+                <option value="agriao">Agrião</option>
+            </optgroup>
+        </select>
+    </div>
+    <div><!--Formulario suspenso-->
+        Qual estilo de jogo você mais gosta:
+        <input list="jogos">
+            <datalist id="jogos">
+                <option value="Fist Person Shooter">
+                <option value="Roling Play Game">
+                <option value="Real Ttime Strategy">
+                <option value="action">
+                <option value="Platform">
+                <option value="Free to Play">
+            </datalist>
+    </div>
+</body>
+</html>
