@@ -1,10 +1,10 @@
 calculate(){
     var amount = document.getElementById("amount");
     var apr = document.getElementById("apr");
-    var years = document.getElementById("years")
-    var zipcode = document.getElementById("zipcode")
-    var payment = document.getElementById("payment")
-    var total = document.getElementById("total")
+    var years = document.getElementById("years");
+    var zipcode = document.getElementById("zipcode");
+    var payment = document.getElementById("payment");
+    var total = document.getElementById("total");
     var totalinterest = document.getElementById("totalinterest");
     var principal = parseFloat(amount.value);
     var interest = parseFloat(apr.value) / 100 / 12;
