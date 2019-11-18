@@ -1,4 +1,4 @@
-calculate(){
+function calculate(){
     var amount = document.getElementById("amount");
     var apr = document.getElementById("apr");
     var years = document.getElementById("years");
@@ -24,5 +24,24 @@ calculate(){
         chart(principal, interest, monthly, payments);
     } else {
         payment.innerHTML = "";
+        total.innerHTML = ""
+        totalinterest.innerHTML = "";
+        chart();
+    }
+}
+function save(amount, apr, years, zipcode) {
+    if (window.localStorage) {
+    localStorage.loan_amount = amount;
+    localStorage.loan_apr = apr;
+    localStorage.loan_years = years;
+    localStorage.loan_zipcode = zipcode;
+    }
+}
+window.onload = function () {
+    if (window.localStorage && localStorage.loan_amount) {
+        document.getElementById("amount").value = localStorage.loan_amount;
+        document.getElementById("apr").value = localStorage.loan_apr;
+        document.getElementById("years").value = localStorage.loan_years;
+        document.getElementById("zipcode").value = this.localStorage.loan_zipcode;
     }
 }
