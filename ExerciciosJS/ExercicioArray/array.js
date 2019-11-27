@@ -1,5 +1,5 @@
 let num = [5, 8, 6, 9, 3, 7, 1, 2]
-let pos
+//let pos
 let index = num.indexOf(9) //Faz buscas de elementos no array
 /*
 console.log(`O meu vetor tem ${num.length} posições!`)
